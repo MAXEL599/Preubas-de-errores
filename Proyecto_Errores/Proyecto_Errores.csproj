@@ -7,7 +7,7 @@
     <ProjectGuid>{7D86E9DF-6D44-477C-8B76-9CC7972CC805}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Proyecto_Errores</RootNamespace>
-    <AssemblyName>Proyecto_Errores</AssemblyName>
+    <AssemblyName>Calculadora</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>accounting_calculator_calculation_calculate_office_icon_191148.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -114,6 +117,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="accounting_calculator_calculation_calculate_office_icon_191148.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

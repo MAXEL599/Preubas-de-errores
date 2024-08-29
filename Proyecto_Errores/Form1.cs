@@ -16,5 +16,12 @@ namespace Proyecto_Errores
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Historial_Error historialError = new Historial_Error();
+            historialError.Show(); // Muestra la ventana de forma no modal
+            // historialError.ShowDialog(); // Muestra la ventana de forma modal
+        }
     }
 }

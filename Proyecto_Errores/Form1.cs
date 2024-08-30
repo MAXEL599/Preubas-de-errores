@@ -32,7 +32,7 @@ namespace Proyecto_Errores
             if (double.TryParse(txtReal.Text, out double valorReal) && double.TryParse(txtCalculo.Text, out double valorCalculo))
             {
                 // Calcular el error absoluto
-                double errorAbsoluto = Math.Abs(valorReal - valorCalculo);
+                double errorAbsoluto = Math.Round(Math.Abs(valorReal - valorCalculo), 2);
 
                 // Calcular el error relativo
                 double errorRelativo = errorAbsoluto / Math.Abs(valorReal);
